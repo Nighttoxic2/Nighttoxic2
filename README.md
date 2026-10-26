@@ -21,11 +21,11 @@
 ## 🏗️ Sarvar Home SOC — Live Architecture
 
 ```
-Internet → ASUS Router (DDNS) → Nginx Proxy Manager (TLS) → LAN Services (192.168.50.131)
+Internet → ASUS Router (DDNS) → Nginx Proxy Manager (TLS) → LAN Services (LAN_IP)
                                     ↓
-                            Tailscale (100.121.115.57) → Remote Admin
+                            Tailscale (TAILSCALE_IP) → Remote Admin
                                     ↓
-                            Docker Networks (172.16.0.0/12)
+                            Docker Networks (DOCKER_CIDR)
 ```
 
 **Hardware:** i7-7700HQ | GTX 1050 Ti 4GB | 16GB RAM | 256GB NVMe + 931GB HDD  
